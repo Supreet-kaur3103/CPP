@@ -1,0 +1,1 @@
+g++ MyClass_main.cpp MyClass.cpp -o output
