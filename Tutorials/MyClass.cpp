@@ -5,8 +5,10 @@ using namespace std;
 
 
 
-MyClass::MyClass(int a) : var(a)
-  { }
+MyClass::MyClass(int a) : var(a){}
+
+
+
 void MyClass::printInfo()
 {cout<<endl<<"Called using THIS-> pointer"<<endl;
    cout << var<<endl;
@@ -16,6 +18,8 @@ void MyClass::printInfo()
 MyClass::MyClass() {
     // Constructor implementation
 }
+
+
 
 void MyClass::someMethod() {
 

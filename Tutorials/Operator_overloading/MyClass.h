@@ -10,19 +10,11 @@ class MyClass {
 public:
 
     MyClass(int a);
-    void printInfo();
-    /// @brief 
-    MyClass();  // Constructor declaration
     
-    void someMethod();  // Method declaration
-    void myPrint() const; //constant method declaration
-   
-   
-
-private: 
-    int regVar;
+    MyClass();  // Constructor declaration
+    MyClass operator+(MyClass &obj); //Operator Overloading
     int var;
-    friend void someFunc(MyClass &obj4);
+   
 };
 
 #endif
